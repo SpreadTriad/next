@@ -1,13 +1,13 @@
 # Readme
 
-These are some learning/experimentation excercises for the new Next 13 app router set up.
+These are some learning/experimentation excercises for Next 13 with app router.
 
 ## To do
 
 This will touch on the Next app router, client and server routes, route handlers, layouts.
 
 ### 0.
-- you can use any database setup you want, but here I have used MongoDB
+- you can use any database setup you want, you can also use an API, but here I have used MongoDB to make it really "full stack"
 - install and set up MongoDB and Compass (see below)
 - create a Next 13 project and npm install `mongoose`
 
