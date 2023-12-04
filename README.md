@@ -1,8 +1,10 @@
 # Readme
 
+These are some learning/experimentation excercises for the new Next 13 app router set up.
+
 ## To do
 
-This will touch on the Next app router, client and server routes, API routes, layouts.
+This will touch on the Next app router, client and server routes, route handlers, layouts.
 
 ### 0.
 - you can use any database setup you want, but here I have used MongoDB
@@ -16,12 +18,12 @@ This will touch on the Next app router, client and server routes, API routes, la
 
 ### 2.
 - create a simple MongoDB model and scheme
-- create a NEXT api route (https://nextjs.org/docs/pages/building-your-application/routing/api-routes) with a POST method
+- create a NEXT route handler (https://nextjs.org/docs/app/building-your-application/routing/route-handlers) with a POST method
 - map the POST route to the Mongo `create` and make a button that posts a new item to MongoDB on click
 - check whether the new item is added (e.g. by using Compass)
 
 ### 3.
-- create API routes for GET, POST, DELETE and PATCH (or PUT) and map them to the MongoDB methods
+- create route handlers for GET, POST, DELETE and PATCH (or PUT) and map them to the MongoDB methods
 - create simple components to make these requests, using fetch or your data fetching library of choice
 - now you have completely unlocked the database via the Next API route
 
@@ -29,7 +31,7 @@ This will touch on the Next app router, client and server routes, API routes, la
 - now you have some components to throw around, create some more pages, with a nested structure, with at least 2 branches and 3 levels deep
 - you should have a layout already; create a new layout and apply it to one of the branches
 - create a navigation for each branch and via layouts make sure every branch has the correct navigation
-- create another branch which handles parameters, using the `[slug]` folder name
+- create another branch which handles dynamic routes, using the `[slug]` folder name
 
 Next steps:
 - integrate shadcn and tailwind
